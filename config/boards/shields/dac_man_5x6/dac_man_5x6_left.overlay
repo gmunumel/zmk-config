@@ -7,7 +7,7 @@
         button_reset: button-reset {
             label = "Top button";
             gpios = <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-            zephyr,code = <RESET>;
+            zephyr,code = <INPUT_KEY_0>;
         };
     };
 };
